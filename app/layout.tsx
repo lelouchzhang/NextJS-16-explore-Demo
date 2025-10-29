@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local"
 import "./globals.css";
 import RippleGrid from "@/components/RippleGrid";
+import Navbar from "@/components/Navbar";
 
 const puhuiti = localFont({
   src: '../public/fonts/AlibabaPuHuiTi-3-55-Regular.woff2',
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${puhuiti.className} ${puhuitiSemiBold.className} min-h-screen antialiased`}
       >
+        <Navbar />
         <div className="absolute top-0 inset-0 z-[-1] min-h-screen">
           <RippleGrid
             enableRainbow={false}
