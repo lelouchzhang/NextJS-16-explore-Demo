@@ -1,0 +1,2 @@
+{"error":"Protocol and host list are required in \"mongodb+srv://fenmiao:zhch142857@@cluster0.9pihyvu.mongodb.net/?appName=Cluster0\"","level":"error","message":"GET请求全部event数据时失败","responseTime":"294ms","service":"nextjs16-demo","status":500,"timestamp":"2025-10-31T12:14:53.781Z"}
+{"error":"bad auth : authentication failed","level":"error","message":"GET请求全部event数据时失败","responseTime":"2249ms","service":"nextjs16-demo","status":500,"timestamp":"2025-10-31T12:20:36.251Z"}

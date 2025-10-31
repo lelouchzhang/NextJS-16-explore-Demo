@@ -179,8 +179,6 @@ function normalizeTime(timeString: string): string {
     return `${hours.toString().padStart(2, '0')}:${minutes}`;
 }
 
-// 为 slug 字段创建唯一索引，提升基于 slug 查询的性能（常用于 URL 路由）
-EventSchema.index({ slug: 1 }, { unique: true });
 
 // 针对常见查询场景：按日期和模式筛选事件的复合索引
 // 例如：查询"2025-10-30的所有线上活动"
