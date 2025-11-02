@@ -46,6 +46,7 @@ export async function POST(req: NextRequest) {
 
         // 图片上传
         logger.info('正在上传图片...');
+        // @dev 必须是合法图片（字符串会报错image.arrayBuffer is not a function.）
         const image = formData.get('image') as File
         if (!image) return NextResponse.json({ message: "请上传图片" }, { status: 400 })
 
@@ -103,7 +104,7 @@ export async function GET() {
         await connectToDatabase()
         const events = await Event.find().sort({ createdAt: -1 })
         return NextResponse.json({
-            message: "event获取成功"
+            message: "event获取成功", events
         }, { status: 200 })
     } catch (error) {
         const responseTime = Date.now() - startTime;
@@ -117,3 +118,4 @@ export async function GET() {
         }, { status: 500 })
     }
 }
+

@@ -1,8 +1,15 @@
 import EventCard from "@/components/EventCard"
 import ExploreBtn from "@/components/ExploreBtn"
-import { MOCK_EVENTS } from "@/lib/constant"
+import { IEvent } from "@/database"
+// import { MOCK_EVENTS } from "@/lib/constant"
 
-const page = ({ params }: { params: Promise<{ id: string }> }) => {
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
+
+const page = async () => {
+  const response = await fetch(`${BASE_URL}/api/events`)
+  const { events } = await response.json()
+  console.log(events)
+
   return (
     <section>
       {/* h1: text-size 6xl -> 5xl，sm:text-4xl -> sm:text-3xl */}
@@ -13,7 +20,8 @@ const page = ({ params }: { params: Promise<{ id: string }> }) => {
         <h3>Featured Events</h3>
 
         <ul className="events">
-          {MOCK_EVENTS.map((e) => (
+          {/* {MOCK_EVENTS.map((e) => ( */}
+          {events && events.length > 0 && events.map((e: IEvent) => (
             <li key={e.title} className="list-none">
               <EventCard {...e} />
             </li>
