@@ -69,3 +69,73 @@
 {"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T15:38:19.438Z"}
 {"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:38:19.450Z"}
 {"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"265ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T15:38:19.683Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:56:04.098Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T15:56:04.104Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T15:56:06.419Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:56:06.420Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"3599ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T15:56:07.697Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:56:08.064Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T15:56:08.069Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T15:56:08.072Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:56:08.074Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"212ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T15:56:08.276Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:56:33.470Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T15:56:33.478Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T15:56:33.480Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:56:33.481Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"220ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T15:56:33.690Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"[object Object]","timestamp":"2025-11-02T15:57:40.426Z","url":"/api/events/[object Object]"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T15:57:40.442Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T15:57:40.444Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"[object object]","timestamp":"2025-11-02T15:57:40.445Z"}
+{"level":"warn","message":"事件未找到","service":"nextjs16-demo","slug":"[object object]","timestamp":"2025-11-02T15:57:40.704Z"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:57:44.265Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T15:57:44.269Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T15:57:44.270Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T15:57:44.272Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"216ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T15:57:44.481Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:00:03.245Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T16:00:03.250Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T16:00:05.436Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:00:05.439Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"3639ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T16:00:06.884Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:03:42.424Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T16:03:42.430Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T16:03:42.444Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:03:42.446Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"252ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T16:03:42.676Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:05:12.260Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T16:05:12.266Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T16:05:12.267Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:05:12.268Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"212ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T16:05:12.472Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:13:19.366Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T16:13:19.374Z"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:13:19.396Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T16:13:19.397Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T16:13:21.763Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:13:21.764Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T16:13:21.766Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T16:13:21.766Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"2825ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T16:13:22.191Z","title":"Cloud Next 2026"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"3641ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T16:13:23.007Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T17:05:08.555Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T17:05:08.560Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T17:05:08.562Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T17:05:08.563Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"240ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T17:05:08.795Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T17:09:19.760Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-02T17:09:19.772Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-02T17:09:19.774Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-02T17:09:19.778Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"208ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-02T17:09:19.968Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-03T01:08:36.330Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-03T01:08:36.337Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-03T01:08:36.339Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-03T01:08:36.340Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"188ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-03T01:08:36.518Z","title":"Cloud Next 2026"}
+{"level":"info","message":"获取单个event API请求开始","method":"GET","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-03T01:20:57.829Z","url":"/api/events/cloud-next-2026"}
+{"level":"info","message":"正在连接数据库...","service":"nextjs16-demo","timestamp":"2025-11-03T01:20:57.836Z"}
+{"level":"info","message":"数据库连接成功","service":"nextjs16-demo","timestamp":"2025-11-03T01:20:57.837Z"}
+{"level":"info","message":"正在查询事件...","service":"nextjs16-demo","slug":"cloud-next-2026","timestamp":"2025-11-03T01:20:57.838Z"}
+{"eventId":"69056c713a1db94fc47e6d32","level":"info","message":"获取单个event API请求成功","responseTime":"207ms","service":"nextjs16-demo","status":200,"timestamp":"2025-11-03T01:20:58.036Z","title":"Cloud Next 2026"}

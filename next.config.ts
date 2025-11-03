@@ -26,6 +26,7 @@ const nextConfig: NextConfig = {
 
   // Required to support PostHog trailing slash API requests
   skipTrailingSlashRedirect: true,
+  cacheComponents: true,
 };
 
 export default nextConfig;
