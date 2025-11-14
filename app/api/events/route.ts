@@ -50,6 +50,7 @@ export async function POST(req: NextRequest) {
         const image = formData.get('image') as File
         if (!image) return NextResponse.json({ message: "请上传图片" }, { status: 400 })
 
+        // File -> Buffer
         const arrayBuffer = await image.arrayBuffer()
         const buffer = Buffer.from(arrayBuffer)
 
@@ -66,9 +67,16 @@ export async function POST(req: NextRequest) {
             imageUrl: event.image
         });
 
+        const tags = JSON.parse(formData.get('tags') as string)
+        const agenda = JSON.parse(formData.get('agenda') as string)
+
         // 创建事件记录
         logger.info('正在创建事件记录...');
-        const eventCreated = await Event.create(event)
+        const eventCreated = await Event.create({
+            ...event,
+            tags,
+            agenda
+        })
         logger.info('事件记录创建成功', {
             eventId: eventCreated._id,
             eventType: event.type || 'unknown'

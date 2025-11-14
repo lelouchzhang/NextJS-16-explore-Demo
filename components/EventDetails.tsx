@@ -2,6 +2,9 @@ import { cacheLife } from "next/cache"
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import BookEvents from "./BookEvents";
+import { getSimilarEventsBySlug } from "@/lib/actions/event.action";
+import EventCard from "./EventCard";
+import { IEvent } from "@/database";
 
 const EventDetailItem = ({ icon, alt, label }: { icon: string; alt: string; label: string; }) => (
     <div className="flex-row-gap-2 items-center">
@@ -57,7 +60,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
 
     const bookings = 10;
 
-
+    const similarEvents: IEvent[] = await getSimilarEventsBySlug(slug)
 
     return (
         <section id="event">
@@ -84,14 +87,14 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
                         <EventDetailItem icon="/icons/audience.svg" alt="audience" label={audience} />
                     </section>
 
-                    <EventAgenda agendaItems={JSON.parse(agenda[0])} />
+                    <EventAgenda agendaItems={agenda} />
 
                     <section className="flex-col-gap-2">
                         <h2>About the Organizer</h2>
                         <p>{organizer}</p>
                     </section>
 
-                    <EventTags tags={JSON.parse(tags[0])} />
+                    <EventTags tags={tags} />
                 </div>
                 {/* rightSide */}
                 <aside className="booking">
@@ -108,6 +111,14 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
                         <BookEvents eventId={event._id} slug={event.slug} />
                     </div>
                 </aside>
+            </div>
+            <div className="flex w-full flex-col gap-4 pt-20">
+                <h2>Similar Events</h2>
+                <div className="events">
+                    {similarEvents.length > 0 && similarEvents.map((similarEvent: IEvent) => (
+                        <EventCard key={similarEvent.title} {...similarEvent} />
+                    ))}
+                </div>
             </div>
         </section>
     )
