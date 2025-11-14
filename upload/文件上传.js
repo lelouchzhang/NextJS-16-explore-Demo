@@ -1,5 +1,5 @@
 
-const $ = document.querySelector().bind(document);
+const $ = document.querySelector.bind(document);
 
 const doms = {
     img: $('.preview'),
@@ -119,7 +119,7 @@ function upload(file, onProgress, onSuccess) {
 // 2. Base64|application/json
 let xhr = null;
 function uploadBase64(file, onProgress, onSuccess) {
-    const ext = `.${file.name.split('x').pop()}`;
+    const ext = `.${file.name.split('.').pop()}`;
     const reader = new FileReader();
     reader.readAsDataURL(file);
     reader.onload = function (e) {
@@ -157,8 +157,8 @@ function uploadBinary(file, onProgress, onSuccess) {
 
     xhr.open('POST', 'http://test.com:9527/upload/binary')
 
-    setRequestHeader('Content-Type', 'application/octet-stream');
-    setRequestHeader('x-ext', '.' + file.name.split('.').pop());
+    xhr.setRequestHeader('Content-Type', 'application/octet-stream');
+    xhr.setRequestHeader('x-ext', '.' + file.name.split('.').pop());
     xhr.send(file)
 
     return function () {
