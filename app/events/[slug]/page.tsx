@@ -1,4 +1,4 @@
-import EventDetails from "@/components/EventDetails"
+import { notFound } from "next/navigation"
 import { Suspense } from "react"
 
 const EventDetailsPage = async ({ params }: { params: Promise<{ slug: string }> }) => {
@@ -6,7 +6,7 @@ const EventDetailsPage = async ({ params }: { params: Promise<{ slug: string }> 
     return (
         <main>
             <Suspense fallback={<div>Loading...</div>}>
-                <EventDetails params={slug} />
+                <h1>{slug}</h1>
             </Suspense>
         </main>
     )
